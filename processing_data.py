@@ -1,6 +1,6 @@
 def split_cabin(x):
     if len(str(x).split('/')) < 3:
-        return ['', '0', '']
+        return ['Missing', '-1', 'Missing']
     else:
         return str(x).split('/')
 
