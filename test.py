@@ -2,7 +2,7 @@ import pandas as pd
 from kaggle.SpaceshipTitanic.processing_data import preprocessing
 import pickle
 
-with open('models\\gradientboosted.pkl', 'rb') as f:
+with open('models\\randomforestclassifier.pkl', 'rb') as f:
   reloaded_model = pickle.load(f)
 # Read in the Test CSV Dataset
 test_df = pd.read_csv('Data/test.csv')
